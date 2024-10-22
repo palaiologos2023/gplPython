@@ -11,10 +11,7 @@ Copy and paste the following code at the end of the file:
 
 AddHandler cgi-script .py
 ScriptInterpreterSource Registry-Strict
-Copy and paste the following code at the end of the file:
 
-AddHandler cgi-script .py
-ScriptInterpreterSource Registry-Strict
 
 At the beginning of your script, you first need to specify the directory of your Python executable. The default location of Python 
 
