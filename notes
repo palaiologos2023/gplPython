@@ -1,0 +1,25 @@
+Run Python in XAMPP for Windows
+Step 1: Download and Install Python
+Download and install the latest version of Python from https://www.python.org/downloads.
+
+Step 2: Configure XAMPP for Python
+Open the Apache httpd.conf configuration file located at .../xampp/apache/conf/httpd.conf using a text editor of your choice.
+
+The XAMPP GUI can also quickly access the httpd.conf file:
+
+Copy and paste the following code at the end of the file:
+
+AddHandler cgi-script .py
+ScriptInterpreterSource Registry-Strict
+Copy and paste the following code at the end of the file:
+
+AddHandler cgi-script .py
+ScriptInterpreterSource Registry-Strict
+
+At the beginning of your script, you first need to specify the directory of your Python executable. The default location of Python 
+
+#!\python311\python.exe
+print ("Content-type: text/html")
+print ("")
+
+# Από δω ξεκινάει ..
